@@ -1,0 +1,4 @@
+#!/bin/bash
+CFILE="$1\.c"  # Accept C file name from user
+gcc -E "$CFILE" -o c # C file will run through the preprocessor and the result will be saved into the variable $CFILE
+echo "Preprocessed output has been successfully saved in the 'c' file."
