@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c "$CFILE" -o o # C file will run through the preprocessor, but will not COMPILE,  and the result will be saved into the variable $CFILE
+gcc -c "$CFILE"  # C file will run through the preprocessor, but will not COMPILE,  and the result will be saved into the variable $CFILE
