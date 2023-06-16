@@ -1,13 +1,13 @@
 #include <unistd.h>
-/*
- * main -Print "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n")
+/**
+ * main -Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19")
  * then a newline is printed to standard error.
  * ------------------
  * Return: Always 1
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\"
-			- Dora Korpar, 2015-10-19\n", 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	59);
 	return (1);
 }
