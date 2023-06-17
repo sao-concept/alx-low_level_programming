@@ -29,7 +29,7 @@ int main(void)
 			putchar((secondDig % 10) + '0');
 			putchar((thirdDig % 10) + '0');
 
-			if (firstDig != 8 || secondDig != 9 || thirdDig != 9)
+			if (firstDig != 8 || secondDig != 9 && thirdDig != 9)
 			{
 				putchar(',');
 				putchar(' ');
