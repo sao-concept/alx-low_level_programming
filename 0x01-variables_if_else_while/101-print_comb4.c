@@ -6,12 +6,12 @@
  * Return: Always 0 (Success)
  */
 
-// Include the necessary headers
+/* Program that prints all possible different combinations of three  digits. */
+
 #include <stdio.h>
 
 int main(void)
 {
-/* Program that prints all possible different combinations of three  digits. */
 
 	int firstDig;
 	int secondDig;
