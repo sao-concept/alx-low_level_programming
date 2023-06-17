@@ -8,7 +8,7 @@ int main(void)
 {
 	int i = 0;
 
-	while (i > 0)
+	while (i < 10)
 	{
 		printf("%d is a base_10_number\n", i);
 		i++;
