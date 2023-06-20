@@ -14,6 +14,8 @@
 
 int _putchar(char var_name) /* Function declaration for _putchar(prototype) */
 {
-return (var_name); /* Return character */
+return (int); /* Return type */
 }
+
+
 #endif /* EOF */
