@@ -9,7 +9,7 @@
 /* Include the necessary headers */
 #include "main.h"
 
-int main(void)
+void print_alphabet(void)
 {
 char lCase = 'a';
 
@@ -21,5 +21,4 @@ lCase++;
 
 }
 _putchar('\n');
-return (0);
 }
