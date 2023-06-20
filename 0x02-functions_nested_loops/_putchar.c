@@ -12,8 +12,8 @@
 
 #define _PUTCHAR_H
 
-int _putchar(char var_name); /* Function declaration for _putchar(prototype) */
-
+int _putchar(char var_name) /* Function declaration for _putchar(prototype) */
+{
 return (var_name); /* Return character */
-
+}
 #endif /* EOF */
