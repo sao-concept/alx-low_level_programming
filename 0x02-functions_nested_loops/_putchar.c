@@ -1,19 +1,13 @@
+#include <unistd.h>
+
 /**
-* _putchar -Custom Function
-* ---------------------
-* Author: Azeez Saka
-* Date: <20-06-2023>
-* Return: Always 0 (Success)
+* _putchar - writes the character c to stdout
+* @c: The character to print
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
 */
-
-/* creation of a custom function named '_putchar' */
-
-#ifndef _PUTCHAR_H /*HEADER GUARD for _PUTCHAR_H */
-
-#define _PUTCHAR_H
-
-int _putchar(char var_name) /* Function declaration for _putchar(prototype) */
+int _putchar(char c)
 {
-return (var_name); /* Return statement */
+return (write(1, &c, 1));
 }
-#endif
