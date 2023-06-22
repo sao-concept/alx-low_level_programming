@@ -23,6 +23,7 @@ void print_remaining_days(int month, int day, int year);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
+void print_numbers(void);
 
 /* Other function prototypes can be added here */
 
