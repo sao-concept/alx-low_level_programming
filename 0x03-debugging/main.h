@@ -19,6 +19,7 @@ void print_times_table(int n);
 void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
 
+
 /* Other function prototypes can be added here */
 
 #endif /* MAIN_H */
