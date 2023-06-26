@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,22 +9,13 @@
 void print_array(int *a, int n)
 {
 int i;
-if (a == NULL || n <= 0)
-{
-return; /* Nothing to print */
-}
 
 for (i = 0; i < n; i++)
 {
-_putchar(a[i] + '9'); /* Print the current element */
-
-if (i != n - 1)
-{
-_putchar(','); /* Print comma unless it's the last element */
-_putchar(' '); /* Print space after comma */
+if (i == 0)
+printf("%d", a[i]);
+else
+printf(", %d", a[i]);
 }
+printf("\n");
 }
-
-_putchar('\n'); /* Print a new line after printing the array */
-}
-
