@@ -12,12 +12,13 @@
 
 char *generate_password()
 {
+int i;
 static const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 char *password = malloc((PASSWORD_LENGTH + 1) * sizeof(char)); /* +1 for the null terminator */
 
 srand(time(NULL));
 
-for (int i = 0; i < PASSWORD_LENGTH; i++)
+for (i = 0; i < PASSWORD_LENGTH; i++)
 {
 password[i] = charset[rand() % (sizeof(charset) - 1)];
 }
