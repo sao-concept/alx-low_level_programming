@@ -7,13 +7,15 @@
 #include <string.h>
 void rev_string(char *s)
 {
-int i;
+int i, j;
+char tmp;
 int len = strlen(s);
 
-for (i = len - 1; i >= 0; i--)
+for (i = 0, j = len - 1; i <  j; i++, j--)
 {
-_putchar(s[i]);
+tmp = s[i];
+s[i] = s[j];
+s[j] = tmp;
 }
 
-_putchar('\n');
 }
