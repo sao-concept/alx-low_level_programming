@@ -49,6 +49,7 @@ int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
+char *leet(char *);
 /* Other function prototypes can be added here */
 
 #endif /* MAIN_H */
