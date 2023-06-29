@@ -1,30 +1,30 @@
-/**
-* print_line -This function print a buffer
-* @c: parameter1
-* @s: parameter2
-* @l: parameter3
-* Return: Always void
-*/
-
 #include "main.h"
 #include <stdio.h>
+/**
+* print_line - prints a s bytes of a buffer
+* @c: buffer to print
+* @s: bytes of buffer to print
+* @l: line of buffer to print
+*
+* Return: void
+*/
 
-void print_buffer(char *b, int size)
+void print_line(char *c, int s, int l)
 {
-int a, b;
-for (a = 0; a <= 9; a++)
+int j, k;
+for (j = 0; j <= 9; j++)
 {
-if (a <= s)
-printf("%02x", c[l * 10 + a]);
+if (j <= s)
+printf("%02x", c[l * 10 + j]);
 else
 printf("  ");
-if (a % 2)
+if (j % 2)
 putchar(' ');
 }
-for (b = 0; b <= s; b++)
+for (k = 0; k <= s; k++)
 {
-if (c[l * 10 + b] > 31 && c[l * 10 + b] < 127)
-putchar(c[l * 10 + b]);
+if (c[l * 10 + k] > 31 && c[l * 10 + k] < 127)
+putchar(c[l * 10 + k]);
 else
 putchar('.');
 }
