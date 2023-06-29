@@ -6,18 +6,20 @@
 */
 
 #include "main.h"
-#include <string.h>
 
 char *_strcat(char *dest, char *src)
 {
-size_t dest_len = strlen(dest);
-size_t i;
+int len, count;
 
-for (i = 0; src[i] != '\0'; i++)
+len = 0;
+while (dest[len] != '\0')
 {
-dest[dest_len + i] = src[i];
+len++;
 }
-dest[dest_len + i] = '\0';
-
+for (count = 0; src[count] != '\0'; count++, len++)
+{
+dest[len] = src[count];
+}
+dest[len] = '\0';
 return (dest);
 }
