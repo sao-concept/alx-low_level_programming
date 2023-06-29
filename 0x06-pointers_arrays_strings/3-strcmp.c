@@ -3,7 +3,7 @@
 * _strcmp -This function compares two strings
 * @s1: parameter1
 * @s2: parameter2
-* Return: Always 0 (Success)
+* Return: cmpValue
 */
 
 #include "main.h"
