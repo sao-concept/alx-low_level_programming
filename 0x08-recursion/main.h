@@ -69,6 +69,7 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
 /* Other function prototypes can be added here */
 
 #endif /* MAIN_H */
