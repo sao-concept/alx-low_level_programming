@@ -1,5 +1,5 @@
 /**
-* main -This program prints all arguments it receives.
+* main -This program multiplies two numbers
 * @argc: parameter1
 * @argv: parameter2
 * Return: Always 0 (Success)
