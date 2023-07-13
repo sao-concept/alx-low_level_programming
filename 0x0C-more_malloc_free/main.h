@@ -31,4 +31,5 @@ char **strtow(char *str);
 void util(char **words, char *str);
 void create_word(char **words, char *str, int start, int end, int index);
 void *malloc_checked(unsigned int b);
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 #endif
