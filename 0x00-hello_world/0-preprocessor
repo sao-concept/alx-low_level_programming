@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -E "$CFILE" -o c # C file will run through the preprocessor and the result will be saved into the variable $CFILE

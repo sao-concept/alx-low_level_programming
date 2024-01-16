@@ -1,1 +1,1 @@
-This is a directory for 0x1E-search_algorithms Tasks
+This repository is for ALX Low-Level-Programming in C-Language
